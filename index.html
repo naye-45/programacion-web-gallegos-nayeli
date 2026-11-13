@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablero Kanban Modular</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Tablero de Tareas</h1>
+    <form id="form-tarea">
+      <input 
+        type="text" 
+        id="input-tarea" 
+        placeholder="Escribe una nueva tarea..." 
+        required 
+        autocomplete="off"
+      >
+      <button type="submit">Agregar</button>
+    </form>
+  </header>
+
+  <main id="tablero" class="tablero">
+    <!-- Aquí render.js inyectará las 3 columnas -->
+  </main>
+
+  
+</body>
+</html>
